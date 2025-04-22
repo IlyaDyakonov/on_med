@@ -47,7 +47,7 @@ function UsersList() {
                             username={user.username}
                             email={user.email}
                             // numOfFiles={user.count}
-                            size={Number((user.size * 9.537 * 10 ** -7).toFixed(2))}
+                            // size={Number((user.size * 9.537 * 10 ** -7).toFixed(2))}
                             isStaff={user.is_staff}
                             removeItem={removeItem}
                         />

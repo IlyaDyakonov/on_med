@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { RootState } from "../../store";
 import { useSelector } from "react-redux";
 import UsersList from "./uslis";
+import './Customers.css';
 
 /**
  * НА ЭТОЙ СТРАНИЦЕ БУДУТ КЛИЕНТЫ ВИДЕТЬ ДОКТОРОВ
